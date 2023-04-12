@@ -186,7 +186,7 @@ html{
 }
 #gioithieu{
     position: absolute;
-    margin-top: 1500px;
+    margin-top: 1000px;
     text-align: center;
     justify-content: space-around;
 
@@ -217,15 +217,24 @@ html{
     text-align: center;
 }
 #Chuyennha{
-    margin-top: 400px;
+    margin-top: 600px;
+    margin-left: 50px;
     text-align: center;
     justify-content: space-around;
 }
 .chuyennha_left{
-    margin-top:150px;
+    margin-top:100px;
     margin-left:300px;
+    text-align: left;
+    color: #73665E;
+    width: 700px;
+    height: 800px;
 }
 .chuyennha_right{
-    margin-top:150px;
+    margin-top:100px;
     margin-left:150px;
+    color: #73665E;
+    width: 700px;
+    height: 800px;
+    text-align: left;
 }
