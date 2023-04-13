@@ -146,6 +146,7 @@ html{
     text-align: center;
     margin-top: 30px;
     display: flex;
+    
 }
 .content_left{
     position: absolute;
@@ -164,8 +165,8 @@ html{
 }
 .btn_dathang_anhlon{
     position: absolute;
-    margin-top:-87px;
-    margin-left: 200px; 
+    margin-top:-60px;
+    margin-left: 250px; 
     font-size: 20px;
     width: 150px;
     height: 35px;
@@ -176,13 +177,13 @@ html{
 }
 .btn_dathang_anhnho{
     margin-top:10px;
-    margin-left: 70px;  
     font-size: 20px;
     width: 130px;
     height: 35px;
     background-color: #F2C27A;
     color: #73665E;
     border-radius: 15px ;
+    text-align: center;
 }
 #gioithieu{
     position: absolute;
@@ -221,6 +222,7 @@ html{
     margin-left: 50px;
     text-align: center;
     justify-content: space-around;
+    
 }
 .chuyennha_left{
     margin-top:100px;
@@ -237,4 +239,7 @@ html{
     width: 700px;
     height: 800px;
     text-align: left;
+}
+@media screen {
+    
 }
