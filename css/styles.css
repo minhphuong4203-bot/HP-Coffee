@@ -33,10 +33,14 @@ a {
 }
 
 #menu {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100px;
   background-color: rgba(216, 206, 182, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 #nav {
@@ -357,6 +361,10 @@ a {
   width: 280px;
   text-align: center;
   margin-top: 50px;
+}
+
+#chuyenNha .row1 .item1 .btn_timhieuthem a{
+  text-decoration: none;
 }
 
 #chuyenNha .row1 .item1 .btn_timhieuthem a p {
