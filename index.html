@@ -282,6 +282,61 @@
             </div>
         </div>
     </div>
+
+
+    <div class="modalLogin js-modal">
+        <div class="modalLogin-container js-modal-container">
+            <div class="modalLogin-close js-modal-close">
+                <i class="modalLogin-heading-icon ti-close"></i>
+            </div>
+
+            <header class="modalLogin-header">
+                <i class="ti-shopping-cart"></i>
+                Đặt Hàng
+            </header>
+
+            <div class="modalLogin-body">
+                <label for="order-name" class="modalLogin-label">
+                    Họ và Tên
+                </label>
+                
+                <input id="order-name" type="text" class="modalLogin-input" placeholder="Name">
+
+                <label for="genders">Giới tính</label>
+
+                <select name="genders" id="order-gender">
+                    <option value="">Nam</option>
+                    <option value="">Nữ</option>
+                </select>
+
+                <label for="order-age" class="modalLogin-label">
+                    Tuổi
+                </label>
+                
+                <input id="order-age" type="number" class="modalLogin-input" placeholder="Tuổi">
+
+                <label for="order-email" class="modalLogin-label">
+                    Email
+                </label>
+                <input id="order-email" type="email" class="modalLogin-input" placeholder="Email">
+                
+                <label for="order-email" class="modalLogin-label">
+                    Địa chỉ nhận hàng
+                </label>
+                <input id="order-email" type="email" class="modalLogin-input" placeholder="Địa chỉ">
+
+                <button id="confirm-order">
+                    Confirm <i class="ti-check"></i>
+                </button>
+            </div>
+
+            <footer class="modalLogin-footer">
+                <p class="modalLogin-help">Need <a href="">help ?</a></p>
+            </footer>
+
+        </div>
+    </div>
+
 </body>
 
 </html>
