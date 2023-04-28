@@ -363,7 +363,7 @@ a {
   margin-top: 50px;
 }
 
-#chuyenNha .row1 .item1 .btn_timhieuthem a{
+#chuyenNha .row1 .item1 .btn_timhieuthem a {
   text-decoration: none;
 }
 
@@ -390,7 +390,7 @@ a {
   margin-left: 60px;
 }
 
-#footer .col {
+#footer .item {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -399,27 +399,27 @@ a {
 }
 
 #footer h1 {
-  margin-top: 40px;
+  margin-top: 40px;  
   font-size: 30px;
   text-align: center;
   margin-bottom: 120px;
 }
 
-#footer .col .row1 {
+#footer .item .child {
   display: flex;
 }
 
-#footer .col .row1 a,#footer .col .row2 a {
+#footer .item .child a,#footer .item .socialMedia a {
   color: #733f3f;
   text-decoration: none;
 }
 
 .ti-location-pin, .ti-mobile{
-  font-size: 53px;
+  font-size: 54px;
   padding-top: 5px;
 }
 
-#footer .col .row2{
+#footer .item .socialMedia{
   margin-top: 40px;
   margin-left: 7px;
   width: 300px;
@@ -429,31 +429,111 @@ a {
 }
 
 
-.modalLogin{
+.modalLogin {
   position: fixed;
-  top: 90px;
+  display: flex;
+  top: 0px;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.3);
   align-items: center;
   justify-content: center;
+  z-index: 2;
   /* display: none; */
 }
 
-/* .modalLogin.open{
+.modalLogin.open {
   display: flex;
 }
 
 .modalLogin-container {
   background-color: white;
-  width: 900px;
+  width: 550px;
   max-width: calc(100% - 32px);
-  min-height: 200px;
+  min-height: 750px;
   position: relative;
   animation: modalFadeIn ease 0.5s;
+  background-color: #EAD0AD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.modalLogin-close{
+  margin-top: 10px;
+  margin-left: 520px;
+}
+
+.modalLogin-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalLogin-header h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.modalLogin-header img {
+  width: 150px;
+  height: 150px;
+}
+
+.modalLogin-body{
+  margin-top: 26px;
+  width: 80%;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.form-group label{
+font-size: 25px;
+}
+
+.form-group input{
+  width: 100%;
+  height: 50px;
+  }
+
+.form-check{
+  display: flex;
+}
+
+.form-check input{
+  width: 16px;
+  height: 16px;
+}
+.form-check label{
+  padding-top: 2px;
+  font-size: 16px;
+}
+
+.btn-primary{
+  width: 100%;
+  height: 50px;
+}
+
+.modalLogin-Contact{
+  margin-top: 20px;
+  font-size: 20px;
+  /* color: chocolate; */
+}
+
+/* .modalLogin-Contact p{
+  margin-bottom: 16px;
+} */
+
+.modalLogin-Contact a{
+  font-size: 32px;
+  color: #000;
+  margin-left: 8px;  
+}
+
+/*
 .modalLogin-header {
   display: flex;
   height: 129px;

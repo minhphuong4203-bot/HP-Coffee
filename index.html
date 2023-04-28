@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./icon/themify-icons-font/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
@@ -17,14 +17,17 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
 </head>
 <style>
 </style>
 
 <body>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
     <div class="wrapper">
         <div id="header">
             <img style=" width:102%; height:1000px;" src="picture/5585379 (1).png" alt="">
@@ -237,32 +240,32 @@
 
 
         <div id="footer">
-            <div class="col">
+            <div class="item">
                 <h1>Giới Thiệu</h1>
                 <video controls>
                     <source src="./picture/Mocha- Đi tìm hương vị cà phê đầy lôi cuốn..mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="col" style="margin-left: 60px;">
+            <div class="item" style="margin-left: 60px;">
                 <h1>Các Chính Sách</h1>
-                <p class="row1" style="font-size: 24px;"> <span style="padding-right: 10px;">&#8857;</span><span><a
+                <p class="child" style="font-size: 24px;"> <span style="padding-right: 10px;">&#8857;</span><span><a
                             href="">Chính sách bảo mật</a> </span></p>
-                <p class="row1" style="font-size: 24px;margin-top: 10px;"> <span
+                <p class="child" style="font-size: 24px;margin-top: 10px;"> <span
                         style="padding-right: 10px;">&#8857;</span><span><a href="">Chính sách mua hàng</a> </span></p>
-                <p class="row1" style="font-size: 24px;margin-top: 10px;"> <span
+                <p class="child" style="font-size: 24px;margin-top: 10px;"> <span
                         style="padding-right: 10px;">&#8857;</span><span><a href="">Chính sách vận chuyển</a> </span>
                 </p>
             </div>
-            <div class="col" style="margin-right: 60px;">
+            <div class="item" style="margin-right: 60px;">
                 <h1>Liên Hệ</h1>
 
                 <div>
-                    <div class="row1">
+                    <div class="child">
                         <div style="padding-right: 10px;"><i class="ti-location-pin"></i></div>
                         <div style="font-size: 20px;">12 Nguyễn Văn Bảo, Phường 4, Quận Gò Vấp, TP.Hồ Chí Minh</div>
                     </div>
 
-                    <div class="row1" style="margin-top: 24px;">
+                    <div class="child" style="margin-top: 24px;">
                         <i style="padding-right: 10px;" class="ti-mobile"></i>
                         <span>
                             <p style="font-size: 20px; margin: 0;">(+84)33333333 (Mr.Hưng)</p>
@@ -270,7 +273,7 @@
                         </span>
                     </div>
 
-                    <div class="row2">
+                    <div class="socialMedia">
                         <a href=""><i class="ti-youtube"></i></a>
                         <a href=""><i class="ti-facebook"></i></a>
                         <a href=""><i class="ti-instagram"></i></a>
@@ -291,48 +294,36 @@
             </div>
 
             <header class="modalLogin-header">
-                <i class="ti-shopping-cart"></i>
-                Đặt Hàng
+                <img src="./picture/logo.jpg" alt="">
+                <h1>Login</h1>
             </header>
 
             <div class="modalLogin-body">
-                <label for="order-name" class="modalLogin-label">
-                    Họ và Tên
-                </label>
-                
-                <input id="order-name" type="text" class="modalLogin-input" placeholder="Name">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                    </div>
+                    <div class="form-group form-check">
+                            <input class="form-check-input" type="checkbox" name="remember">
+                            <label for="remember">Remember me</label> 
+                    </div>
+                    <button type="submit" style="background-color: chocolate;  border: none;" class="btn btn-primary">Submit</button>
 
-                <label for="genders">Giới tính</label>
+                    <div class="modalLogin-Contact">
+                        <p>--Or login with--</p>
+                        <a href="https://www.facebook.com/"><i class="ti-facebook"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="ti-email"></i></a>
+                        <a href="https://twitter.com/"><i class="ti-twitter"></i></a>
+                    </div>
 
-                <select name="genders" id="order-gender">
-                    <option value="">Nam</option>
-                    <option value="">Nữ</option>
-                </select>
-
-                <label for="order-age" class="modalLogin-label">
-                    Tuổi
-                </label>
-                
-                <input id="order-age" type="number" class="modalLogin-input" placeholder="Tuổi">
-
-                <label for="order-email" class="modalLogin-label">
-                    Email
-                </label>
-                <input id="order-email" type="email" class="modalLogin-input" placeholder="Email">
-                
-                <label for="order-email" class="modalLogin-label">
-                    Địa chỉ nhận hàng
-                </label>
-                <input id="order-email" type="email" class="modalLogin-input" placeholder="Địa chỉ">
-
-                <button id="confirm-order">
-                    Confirm <i class="ti-check"></i>
-                </button>
+                </form>
             </div>
 
-            <footer class="modalLogin-footer">
-                <p class="modalLogin-help">Need <a href="">help ?</a></p>
-            </footer>
 
         </div>
     </div>
