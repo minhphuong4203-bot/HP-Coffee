@@ -44,7 +44,7 @@ a {
 }
 
 #nav {
-  margin-left: 350px;
+  margin-left: 450px;
   display: inline-block;
 }
 
@@ -81,14 +81,14 @@ a {
   position: absolute;
   background-color: rgba(216, 206, 182, 0.7);
   font-size: 20px;
-  width: 220px;
+  width: 240px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   top: 100%;
 }
 
 #nav .subnav a {
   line-height: 48px;
-  font-size: 26px;
+  font-size: 28px;
 }
 
 .subnav li a {
@@ -135,17 +135,18 @@ a {
   padding: 16px 0;
 }
 
-#header .btn {
+#header .btn button {
   position: absolute;
-  margin-top: 520px;
+  margin-top: 500px;
   margin-left: 350px;
   font-size: 25px;
   width: 260px;
   height: 70px;
   background-color: #f2c27a;
   color: #73665e;
-  border-radius: 5px;
+  border-radius: 8px;
   text-align: center;
+  border: none;
 }
 
 #header .btn a {
@@ -174,7 +175,8 @@ a {
   font-size: 35px;
 }
 
-#sanPham .row1 {
+#sanPham .row1,
+#sanPham .row2 {
   display: flex;
   margin-top: 40px;
   width: 100%;
@@ -192,7 +194,7 @@ a {
   position: absolute;
 }
 
-#sanPham .row1 .item1 .btn p {
+#sanPham .row1 .item1 .btn button {
   padding: 20px 50px;
   background-color: #f4bc7b;
   color: #000;
@@ -200,6 +202,7 @@ a {
   border-radius: 10px;
   margin-top: 350px;
   margin-left: 10px;
+  border: none;
 }
 
 #sanPham .row1 .item1 .btn a:hover {
@@ -211,10 +214,11 @@ a {
   padding: 35px 10px;
   color: rgb(244, 188, 123);
   font-size: 20px;
-  border: rgb(244, 188, 123) solid 1px;
+  border: rgb(244, 188, 123) solid 2px;
   border-radius: 100px;
   margin-top: 0px;
   margin-left: 20px;
+  font-weight: bold;
 }
 
 #sanPham .row1 .item2 {
@@ -228,52 +232,69 @@ a {
   flex-direction: column;
 }
 
-#sanPham .row1 .item2 .des {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-#sanPham .row1 .item2 .des p {
-  margin-top: 10px;
-  padding: 12px 30px;
-  background-color: #f4bc7b;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-#sanPham .row2 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-  width: 1440px;
-  justify-content: space-between;
-}
-
+#sanPham .row1 .item2 .des,
 #sanPham .row2 .des {
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 
-#sanPham .row2 .des p {
-  margin-top: 10px;
+#sanPham .row1 .item2 .des button,
+#sanPham .row2 .des button {
+  margin-top: 4px;
   padding: 12px 30px;
   background-color: #f4bc7b;
   border-radius: 10px;
   font-size: 20px;
+  color: #000;
 }
+
+#sanPham .row1 .item2 .des h1,#sanPham .row2 .des h1 {
+  color: grey;
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+#sanPham .row1 .item2 .des h5,#sanPham .row2 .des h5  {
+  color: #733f3f;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+/* #sanPham .row2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  width: 1440px;
+  justify-content: space-between;
+} */
+
+/* #sanPham .row2 .des {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+} */
+
+/* #sanPham .row2 .des button {
+  margin-top: 8px;
+  padding: 12px 30px;
+  background-color: #f4bc7b;
+  border-radius: 10px;
+  font-size: 20px;
+} */
 
 #gioiThieu {
   display: flex;
   margin-top: 100px;
   width: 100%;
   position: relative;
+  justify-content: center;
 }
 
 #gioiThieu .container {
   display: flex;
-  max-width: 1800px;
+  /* max-width: 100%; */
+  width: 100%;
   flex-direction: column;
   position: absolute;
   align-items: center;
@@ -284,36 +305,37 @@ a {
   color: #eb9749;
 }
 
-#gioiThieu .container .row2 {
+#gioiThieu .container .item {
   margin-top: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-#gioiThieu .container .row2 .left {
-  margin-left: 40px;
+#gioiThieu .container .item .left {
+  margin-right: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 37%;
+  margin-left: 90px;
+  width: 36%;
 }
 
-#gioiThieu .container .row2 .right {
+#gioiThieu .container .item .right {
   display: flex;
   width: 50%;
   justify-content: end;
-  margin-top: 20px;
+  margin: 20px 90px;
 }
 
-#gioiThieu .container .row2 .left .title {
+#gioiThieu .container .item .left .title {
   color: #733f3f;
   font-size: 45px;
   font-weight: bold;
   text-shadow: 1px 1px 0px #d5d5d5, 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
-#gioiThieu .container .row2 .left .btn p {
+#gioiThieu .container .item .left .btn p {
   padding: 15px 30px;
   background-color: #f67559;
   border-radius: 10px;
@@ -322,7 +344,7 @@ a {
   color: black;
 }
 
-#gioiThieu .container .row2 .left .btn a:hover {
+#gioiThieu .container .item .left .btn a:hover {
   text-decoration: none;
 }
 
@@ -399,7 +421,7 @@ a {
 }
 
 #footer h1 {
-  margin-top: 40px;  
+  margin-top: 40px;
   font-size: 30px;
   text-align: center;
   margin-bottom: 120px;
@@ -409,17 +431,19 @@ a {
   display: flex;
 }
 
-#footer .item .child a,#footer .item .socialMedia a {
+#footer .item .child a,
+#footer .item .socialMedia a {
   color: #733f3f;
   text-decoration: none;
 }
 
-.ti-location-pin, .ti-mobile{
+.ti-location-pin,
+.ti-mobile {
   font-size: 54px;
   padding-top: 5px;
 }
 
-#footer .item .socialMedia{
+#footer .item .socialMedia {
   margin-top: 40px;
   margin-left: 7px;
   width: 300px;
@@ -427,7 +451,6 @@ a {
   justify-content: space-between;
   font-size: 40px;
 }
-
 
 .modalLogin {
   position: fixed;
@@ -440,7 +463,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: 2;
-  /* display: none; */
+  display: none;
 }
 
 .modalLogin.open {
@@ -454,13 +477,13 @@ a {
   min-height: 750px;
   position: relative;
   animation: modalFadeIn ease 0.5s;
-  background-color: #EAD0AD;
+  background-color: #ead0ad;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.modalLogin-close{
+.modalLogin-close {
   margin-top: 10px;
   margin-left: 520px;
 }
@@ -471,7 +494,7 @@ a {
   align-items: center;
 }
 
-.modalLogin-header h1{
+.modalLogin-header h1 {
   font-weight: bold;
   font-size: 40px;
 }
@@ -481,43 +504,43 @@ a {
   height: 150px;
 }
 
-.modalLogin-body{
+.modalLogin-body {
   margin-top: 26px;
   width: 80%;
 }
 
-.form-group{
+.form-group {
   width: 100%;
 }
 
-.form-group label{
-font-size: 25px;
+.form-group label {
+  font-size: 25px;
 }
 
-.form-group input{
+.form-group input {
   width: 100%;
   height: 50px;
-  }
+}
 
-.form-check{
+.form-check {
   display: flex;
 }
 
-.form-check input{
+.form-check input {
   width: 16px;
   height: 16px;
 }
-.form-check label{
+.form-check label {
   padding-top: 2px;
   font-size: 16px;
 }
 
-.btn-primary{
+.btn-primary {
   width: 100%;
   height: 50px;
 }
 
-.modalLogin-Contact{
+.modalLogin-Contact {
   margin-top: 20px;
   font-size: 20px;
   /* color: chocolate; */
@@ -527,10 +550,10 @@ font-size: 25px;
   margin-bottom: 16px;
 } */
 
-.modalLogin-Contact a{
+.modalLogin-Contact a {
   font-size: 32px;
   color: #000;
-  margin-left: 8px;  
+  margin-left: 8px;
 }
 
 /*
