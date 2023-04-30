@@ -12,6 +12,26 @@ a {
   text-decoration: none;
 }
 
+/* common */
+.row{
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col{
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-half{
+  width: 50%;
+}
+
+.col-third{
+  width: 33.33333%;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -41,6 +61,11 @@ a {
   top: 0;
   left: 0;
   z-index: 1;
+  /* overflow: hidden; */
+}
+
+#menu .title{
+  display: none;
 }
 
 #nav {
@@ -107,7 +132,7 @@ a {
   color: rgb(157, 120, 111);
 }
 .search-btn .search-icon,
-.user-btn .user-icon {
+.user-btn .user-icon, .mobile-menu-btn {
   line-height: 100px;
   padding: 36px;
   font-size: 30px;
@@ -115,8 +140,12 @@ a {
   cursor: pointer;
 }
 
+.mobile-menu-btn{
+  display: none;
+}
+
 #header .search-btn:hover,
-#header .user-btn:hover {
+#header .user-btn:hover,.mobile-menu-btn:hover {
   background-color: coral;
   color: #000;
 }
@@ -287,8 +316,9 @@ a {
   display: flex;
   margin-top: 100px;
   width: 100%;
-  position: relative;
+  height: 800px;
   justify-content: center;
+  position: relative;
 }
 
 #gioiThieu .container {
@@ -335,17 +365,14 @@ a {
   text-shadow: 1px 1px 0px #d5d5d5, 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
-#gioiThieu .container .item .left .btn p {
+#gioiThieu .container .item .left .btn button {
+  border: none;
   padding: 15px 30px;
   background-color: #f67559;
   border-radius: 10px;
   font-size: 30px;
   text-decoration: none;
   color: black;
-}
-
-#gioiThieu .container .item .left .btn a:hover {
-  text-decoration: none;
 }
 
 #chuyenNha {
@@ -379,18 +406,19 @@ a {
   font-size: 18px;
 }
 
-#chuyenNha .row1 .item1 .btn_timhieuthem {
+/* #chuyenNha .row1 .item1 .btn_timhieuthem {
   width: 280px;
   text-align: center;
   margin-top: 50px;
-}
-
+} */
+/* 
 #chuyenNha .row1 .item1 .btn_timhieuthem a {
   text-decoration: none;
-}
+} */
 
-#chuyenNha .row1 .item1 .btn_timhieuthem a p {
-  margin-top: 10px;
+#chuyenNha .row1 .item1 .btn_timhieuthem button {
+  border: none;
+  margin-top: 50px;
   padding: 15px 30px;
   background-color: #f4bc7b;
   border-radius: 10px;
@@ -404,7 +432,7 @@ a {
   width: 100%;
   background-color: #fffbe9;
   height: 500px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #footer video {
@@ -412,12 +440,26 @@ a {
   margin-left: 60px;
 }
 
-#footer .item {
+#footer .item,#footer .item1 {
   width: 30%;
   display: flex;
   flex-direction: column;
   font-size: 22px;
   color: #733f3f;
+  margin-right: 40px;
+}
+
+#footer .item .container{
+  width: 500px;
+  margin-right: 24px;
+}
+
+#footer .item1 a{
+  color: #733f3f;
+}
+
+#footer .item1 p{
+  padding: 10px 80px;
 }
 
 #footer h1 {
@@ -486,6 +528,7 @@ a {
 .modalLogin-close {
   margin-top: 10px;
   margin-left: 520px;
+  cursor: pointer;
 }
 
 .modalLogin-header {

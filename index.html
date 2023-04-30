@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./icon/themify-icons-font/themify-icons/themify-icons.css">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -30,12 +31,18 @@
     <script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
     <div class="wrapper">
         <div id="header">
-            <img style=" width:102%; height:1000px;" src="picture/5585379 (1).png" alt="">
+            <img class="imgBackground" style=" width:102%; height:100%;" src="picture/5585379 (1).png" alt="">
 
 
             <div id="menu">
-
-                <img style="margin-left: 20px" width="100px" height="100px" src="picture/logo.jpg" alt="">
+                <img class="imgLogo" style="margin-left: 20px" width="100px" height="100px" src="picture/logo.jpg"
+                    alt="">
+                <div id="mobile-menu" class="mobile-menu-btn">
+                    <i class=" ti-menu"></i>
+                </div>
+                <span class="title">
+                    THE HP COFFEE
+                </span>
                 <ul id="nav">
                     <li><a href="#sanPham"><b>Cà phê</b></a>
                         <ul class="subnav">
@@ -44,7 +51,7 @@
                         </ul>
                     </li>
                     <li><a href="#chuyenNha"><b>Chuyện nhà</b></a></li>
-                    <li><a href="#gioiThieu"><b>Cửa hàng</b></a></li>
+                    <li><a href="#"><b>Cửa hàng</b></a></li>
                     <li><a href="#sanPham"><b>Đồ ăn</b></a>
                         <ul class="subnav">
                             <li><a href="#sanPham"><b>Bánh mì</b></a></li>
@@ -68,9 +75,8 @@
                 <!-- End: search button -->
             </div>
             <div class="btn">
-                    <button>Khám phá ngay!!!</button>
+                <button>Khám phá ngay!!!</button>
             </div>
-
         </div>
 
         <div id="content">
@@ -79,7 +85,7 @@
                     Sản phẩm
                 </div>
                 <div class="row1">
-                    <div class="item1">
+                    <div class="product-item1 item1">
                         <img src="picture/khuyen mai.jpg" alt="" style="width: 675px; height:450px">
                         <div class="btn" style="position: absolute;"><a href="">
                                 <button>Đặt hàng ngay</button>
@@ -88,7 +94,7 @@
                     </div>
 
                     <div class="item2">
-                        <div class="pic">
+                        <div class="product-item pic">
                             <img src="picture/cafeCloudFee.webp" alt="" style="width: 295px; height:330px;">
                             <div class="des">
                                 <h5>Coffee Hạnh Nhân Nướng</h5>
@@ -99,7 +105,7 @@
                             </div>
                         </div>
 
-                        <div class="pic">
+                        <div class="product-item pic">
                             <img src="picture/cafeColdBew.webp" alt="" style="width: 295px; height:330px;">
                             <div class="des">
                                 <h5>The HP Sữa Đá</h5>
@@ -112,8 +118,8 @@
                     </div>
                 </div>
 
-                <div class="row2">
-                    <div class="pic">
+                <div class=" row2">
+                    <div class="product-item pic">
                         <img src="./picture/vải.webp" alt="" style="width: 295px; height:330px;">
                         <div class="des">
                             <h5>High-Tea Vải</h5>
@@ -123,7 +129,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="pic">
+                    <div class="product-item pic">
                         <img src="./picture/bạc xỉu.webp" alt="" style="width: 295px; height:330px;">
                         <div class="des">
                             <h5>Bạc Xỉu</h5>
@@ -134,7 +140,7 @@
                         </div>
                     </div>
 
-                    <div class="pic">
+                    <div class="product-item pic">
                         <img src="./picture/banhMi.jpg" alt="" style="width: 295px; height:330px;">
                         <div class="des">
                             <h5>Bánh Mì VN Thịt Nguội</h5>
@@ -145,7 +151,7 @@
                         </div>
                     </div>
 
-                    <div class="pic">
+                    <div class="product-item pic">
                         <img src="./picture/mochi.webp" alt="" style="width: 295px; height:330px;">
                         <div class="des">
                             <h5>Mochi Kem Việt Quất</h5>
@@ -170,17 +176,15 @@
                     <div class="item">
                         <div class="left">
                             <div class="title">
-                                <p style="margin: 0;">Signature</p>
-                                <p style="margin: 0;">by HP Coffee</p>
+                                <p style="margin: 0; width: 275px;">Signature by HP Coffee</p>
                             </div>
-                            <div style="color:#733F3F; font-size: 26px"><i>Nơi cuộc hẹn tròn đầy
+                            <div class="des" style="color:#733F3F; font-size: 26px"><i>Nơi cuộc hẹn tròn đầy
                                     với
                                     cà
                                     phê đặc sản.<br> Món ăn đa bản sắc và không gian đầy cảm hứng.</i> </div>
                             <div style="border: none; padding: 0;margin-top: 20px;" class="btn">
-                                <a href="">
-                                    <p>Tìm Hiểu Thêm</p>
-                                </a>
+                                <button>Tìm Hiểu Thêm</button>
+
                             </div>
                         </div>
                         <div class="right">
@@ -208,9 +212,7 @@
                             </div>
                         </div>
                         <div class="btn_timhieuthem">
-                            <a href="">
-                                <p>Tìm hiểu thêm</p>
-                            </a>
+                            <button>Tìm hiểu thêm</button>
                         </div>
                     </div>
                     <div class="item1" style="color: #733F3F;">
@@ -224,9 +226,9 @@
                             </div>
                         </div>
                         <div class="btn_timhieuthem">
-                            <a href="">
-                                <p>Tìm hiểu thêm</p>
-                            </a>
+
+                            <button onclick="chuyenSangcfAndBeauti()">Tìm hiểu thêm</button>
+
                         </div>
                     </div>
                 </div>
@@ -243,7 +245,7 @@
                     <source src="./picture/Mocha- Đi tìm hương vị cà phê đầy lôi cuốn..mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="item" style="margin-left: 60px;">
+            <div class="item1">
                 <h1>Các Chính Sách</h1>
                 <p class="child" style="font-size: 24px;"> <span style="padding-right: 10px;">&#8857;</span><span><a
                             href="">Chính sách bảo mật</a> </span></p>
@@ -253,10 +255,10 @@
                         style="padding-right: 10px;">&#8857;</span><span><a href="">Chính sách vận chuyển</a> </span>
                 </p>
             </div>
-            <div class="item" style="margin-right: 60px;">
+            <div class="item">
                 <h1>Liên Hệ</h1>
 
-                <div>
+                <div class="container">
                     <div class="child">
                         <div style="padding-right: 10px;"><i class="ti-location-pin"></i></div>
                         <div style="font-size: 20px;">12 Nguyễn Văn Bảo, Phường 4, Quận Gò Vấp, TP.Hồ Chí Minh</div>
@@ -322,10 +324,15 @@
                 </form>
             </div>
 
-
         </div>
     </div>
 
 </body>
+
+<script src="./js/event.js"></script>
+
+<script>
+//mobile-menu
+</script>
 
 </html>
