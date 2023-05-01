@@ -24,6 +24,15 @@ function veTrangChu() {
     location.replace("index.html")
 }
 
+function chuyenSangcfAndHealth() {
+    location.replace("cafe&health.html")
+}
+
+
+function chuyenSangGioiThieu() {
+    location.replace("signatureCoffee.html")
+}
+
 //responsive menu mobile
 var menu = document.getElementById('menu');
 var mobileMenu = document.getElementById('mobile-menu');

@@ -1,8 +1,14 @@
 /* PC */
 @media (min-width: 1024px) {
+  #menu .title{
+    display: none;
+  }
 }
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
+  #menu .title{
+    display: none;
+  }
 }
 
 /* Mobile */
