@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/datHang.css">
-    <link rel="stylesheet" href="/js/datHang.js">
-    <link rel="stylesheet" href="./icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./css/datHang.css">
+    <link rel="stylesheet" href="./js/datHang.js">
+    <link rel="stylesheet" href="/icon/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./css/resDatHang.css">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
@@ -18,9 +18,11 @@
     <script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
     <div id="wrapper">
         <div id="header">
+            <img src="" alt="">
             <!-- <img width="100%" src="/picture/5585379 (1).png" alt=""> -->
-            <div class="menu">
+            <div class="menu" style="justify-content: space-around;background-color: #FC9722;">
                 <ul id="nav">
+                    <img src="./picture/logo.jpg" alt="" style="width: 94px;height: 94px;">
                     <li><button onclick="veTrangChu()">Trang Chủ</button> </li>
                     <li><button class="btnBook">Đặt Hàng</button> </li>
                     <li><button onclick="showModal()">Đăng nhập</button></li>
@@ -28,17 +30,17 @@
             </div>
         </div>
 
-        <div id="content">
+        <div id="content" style="background-color: #FEAC3C; margin-top: 30px;">
             <table id="table">
                 <tr class="tr-head">
-                    <td class="stt">Stt</td>
-                    <td class="tenKH">Ten Khach Hang</td>
-                    <td class="tenSP">Ten San Pham</td>
-                    <td class="soLuong">So luong</td>
-                    <td class="Ngay">Ngay dat</td>
-                    <td class="gia">Gia</td>
-                    <td class="diaChi">Dia chi</td>
-                    <td class="sdt">So dien thoai</td>
+                    <td class="stt">STT</td>
+                    <td class="tenKH">Tên Khách Hàng</td>
+                    <td class="tenSP">Tên Sản Phẩm</td>
+                    <td class="soLuong">Số Lượng</td>
+                    <td class="Ngay">Ngày Đặt</td>
+                    <td class="gia">Tổng Tiền</td>
+                    <td class="diaChi">Địa Chỉ</td>
+                    <td class="sdt">Số Điện Thoại</td>
                 </tr>
             </table>
         </div>
@@ -187,6 +189,6 @@
 </body>
 
 
-<script src="/js/datHang.js"></script>
+<script src="./js/datHang.js"></script>
 
 </html>

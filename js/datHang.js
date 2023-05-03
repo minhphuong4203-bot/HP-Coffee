@@ -19,7 +19,7 @@ for (const modalClose of modalBookCloses) {
 
 //chuyenTrang
 function veTrangChu() {
-    location.replace("index.html");
+    location.replace("./index.html");
 }
 
 
