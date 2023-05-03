@@ -282,7 +282,33 @@
     margin-left: 32px;
     margin-bottom: 50px;
   }
-
+ #product_description{
+  width: 730px;
+  border-top: gainsboro solid 1px;
+  border-bottom: gainsboro solid 1px;
+  margin-top: 580px;
+  margin-left:50px;
+  margin-bottom: -500px;
+  width: 600px;
+} 
+ /* .pd_title{
+  margin-top: 530px;
+  margin-left:90px;
+ } */
+/* .pd_content{
+  width: 600px;
+  margin-left: 90px;
+} */
+.more_products{
+  width:  713px;
+  margin-top: 500px;
+  margin-bottom: 800px;
+  margin-left: 160px;
+}
+.list_product{
+  display: block;
+  margin-left: 200px;
+}
   /* footer */
   #footer {
     display: flex;

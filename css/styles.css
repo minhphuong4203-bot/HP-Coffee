@@ -628,7 +628,6 @@ a {
   margin-left: 100px;
   margin-top: -20px;
 }
-<<<<<<< HEAD
 .anhlon{
   width:574px; height: 573px;
 }
@@ -663,13 +662,6 @@ a {
    margin-top: 10px;
 }
 .option_topping{
-=======
-
-.ctsp_right button {
-  display: flex;
->>>>>>> 95e184f339f6b89d4c2ebfee96d5fa996be7ea57
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-text-size-adjust: none;
   font-family: "SF Pro Text", sans-serif;
   box-sizing: border-box;
   margin: 0;
@@ -723,8 +715,6 @@ a {
   vertical-align: baseline;
 }
 .option_title {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-text-size-adjust: none;
   font-family: "SF Pro Text", sans-serif;
   color: #000;
   box-sizing: border-box;
@@ -740,8 +730,6 @@ a {
   margin-bottom: 0;
 }
 .product_options {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-text-size-adjust: none;
   font-family: "SF Pro Text", sans-serif;
   line-height: 1.42857143;
   color: #000;
@@ -755,6 +743,10 @@ a {
   vertical-align: baseline;
   display: flex;
   flex-wrap: wrap;
+  width: 541px;
+  height: 241px;
+  margin-top: 280px;
+  margin-left:-60px;
 }
 .option_item {
   font-family: "SF Pro Text", sans-serif;
@@ -764,13 +756,10 @@ a {
   max-width: 100%;
   font-weight: bold;
   font-size: 100%;
-  display: block;
   position: relative;
   margin: 10px 20px 10px 0;
 }
 .checkbox {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-text-size-adjust: none;
   color: inherit;
   font: inherit;
   display: block;
@@ -811,6 +800,8 @@ a {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
+  margin-top: 600px;
+  margin-left: -540px;
 }
 .order_method {
   font-family: "SF Pro Text", sans-serif;
@@ -840,9 +831,9 @@ a {
   padding: 12px 0;
   text-align: center;
   flex: 0 0 calc(50% - 8px);
-  background: #e57905;
   margin-top: 15px;
   background-color: rgb(229, 121, 5);
+  width: 200px;
 }
 .blank {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -867,7 +858,7 @@ a {
   font-weight: 600;
   color: #ffffff;
 }
-.product_description {
+#product_description {
   width: 1176px;
   height: 150px;
   border-top: gainsboro solid 1px;
@@ -884,6 +875,9 @@ a {
   font-weight: 600 !important;
   font-size: 18px;
   margin-bottom: 10px;
+}
+.pd_content{
+  color: #000;
 }
 /* san pham them */
 .more_products {
@@ -917,12 +911,8 @@ a {
 }
 .menu_item_info {
   margin-top: 20px;
-<<<<<<< HEAD
   text-shadow: 0px 1px rgba(229, 121, 5, 0.425) ;
   width: 170px;
-=======
-  text-shadow: 0px 1px rgba(229, 121, 5, 0.425);
->>>>>>> 95e184f339f6b89d4c2ebfee96d5fa996be7ea57
 }
 .price_product_item {
   margin-bottom: 10px;
