@@ -37,6 +37,7 @@ function chuyenSangGioiThieu() {
     location.replace("signatureCoffee.html");
 }
 
+// <<<<<<< HEAD
 
 var btnDatHangs = document.querySelectorAll('.btnDatHang');
 function chuyenSangDatHang() {
@@ -47,7 +48,10 @@ for (const btnDatHang of btnDatHangs) {
     btnDatHang.addEventListener('click', chuyenSangDatHang);
 }
 
-
+function change_PD_1(){
+    location.replace("CoffeeHanhNhanNuong.html")
+}
+// >>>>>>> 8204a553167029e6bcf21233e72ca8e6e66858cd
 //responsive menu mobile
 var menu = document.getElementById('menu');
 var mobileMenu = document.getElementById('mobile-menu');

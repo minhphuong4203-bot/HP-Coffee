@@ -238,6 +238,52 @@
     margin-top: 7px;
   }
 
+  /* SP */
+  #content_PD{
+    display: flex;
+    margin-top: -400px;
+  }
+
+  #content_PD .link_title{
+    margin-top: 10px;
+    margin-left: -300px;
+    font-size: 20px;
+  }
+
+  #content_PD #chitietsanpham{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #content_PD #chitietsanpham .ctsp_right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 500px;
+    margin-left: -60px;
+  }
+
+  .product_description{
+    border: none;
+  }
+
+  .product_description > p{
+    margin-top: 500px;
+    width: 700px;
+    margin-left: 240px;
+    border-top: gainsboro solid 1px;
+    border-bottom: gainsboro solid 1px;
+    font-size: 20px;
+
+  }
+  .more_products{
+    margin-top: 600px;
+    margin-left: 32px;
+    margin-bottom: 50px;
+  }
+
+  /* footer */
   #footer {
     display: flex;
     flex-direction: column;
