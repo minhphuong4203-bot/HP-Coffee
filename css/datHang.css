@@ -76,6 +76,10 @@ td {
   padding: 20px;
 }
 
+td:first-child{
+  width: 50px;
+}
+
 .tr-head td {
   font-weight: bold;
   font-size: 20px;
@@ -113,7 +117,7 @@ td {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.modalBook-container .header img{
+.modalBook-container .header img {
   width: 80px;
   height: 80px;
 }
@@ -125,6 +129,7 @@ td {
 
 .modalBook-container h1 {
   margin-left: 280px;
+  font-weight: bold;
 }
 
 .modalBook-container .body {
@@ -132,13 +137,14 @@ td {
 }
 
 .modalBook-container .body .input,
-select {
+.body select {
   margin: 0 16px;
   padding: 10px;
   width: 96%;
   height: 40px;
   font-size: 16px;
 }
+
 .lblMain {
   display: block;
   margin: 8px 0 5px 20px;
@@ -171,7 +177,7 @@ select {
 }
 
 .footer {
-  margin: 30px 20px;
+  margin: 0px 20px;
   padding-top: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.4);
   text-align: center;
@@ -183,7 +189,7 @@ select {
   position: absolute;
   right: 0;
   margin-right: 20px;
-  padding: 16px 28px;
+  padding: 12px 20px;
   background-color: coral;
   border: 0;
   color: #fff;
@@ -205,7 +211,8 @@ select {
   margin-left: 60px;
 }
 
-#footer .item,#footer .item1 {
+#footer .item,
+#footer .item1 {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -214,16 +221,16 @@ select {
   margin-right: 40px;
 }
 
-#footer .item .container{
+#footer .item .container {
   width: 500px;
   margin-right: 24px;
 }
 
-#footer .item1 a{
+#footer .item1 a {
   color: #733f3f;
 }
 
-#footer .item1 p{
+#footer .item1 p {
   padding: 10px 80px;
 }
 
