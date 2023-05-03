@@ -1,0 +1,93 @@
+/* PC */
+@media (min-width: 1024px) {
+  /* #menu .title {
+    display: none;
+  }
+  #nav li button {
+    display: none;
+  } */
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  /* #menu .title {
+    display: none;
+  }
+  #nav li button {
+    display: none;
+  } */
+}
+
+/* Mobile */
+
+@media (max-width: 740px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  #header {
+    width: 100%;
+    height: 100px;
+  }
+
+  #nav {
+    display: inline-block;
+    height: 100px;
+    margin-left: 70px;
+    width: 100%;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .table td{
+    margin-left: 5px;
+    width: 100px;
+  }
+
+  .tr-head td {
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .modalBook-container h1 {
+    margin-left: 200px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    margin-top: 100px;
+  }
+
+  #footer .item,
+  #footer .item1 {
+    margin-top: 10px;
+    width: 100%;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  #footer .item .container {
+    margin-top: -80px;
+  }
+
+  #footer .item1 h1 {
+    margin-bottom: 40px;
+  }
+  #footer .item video {
+    margin-top: -80px;
+    width: 90%;
+    margin-left: 0;
+  }
+
+  #footer .item .container .child {
+    margin-left: -100px;
+    width: 500px;
+  }
+
+  #footer .item .container .socialMedia {
+    margin-left: 10px;
+  }
+}

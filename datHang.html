@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/cafe&beauti.css">
-    <link rel="stylesheet" href="./css/resSig.css">
+    <link rel="stylesheet" href="/css/datHang.css">
+    <link rel="stylesheet" href="/js/datHang.js">
     <link rel="stylesheet" href="./icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./css/resDatHang.css">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
 </head>
@@ -15,85 +16,31 @@
 <body>
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
-    <div class="wrapper">
+    <div id="wrapper">
         <div id="header">
-            <!-- <img class="imgBackground" style=" width:102%; height:100%;" src="picture/5585379 (1).png" alt=""> -->
-            <div id="menu">
-                <img class="imgLogo" style="margin-left: 20px" width="100px" height="100px" src="picture/logo.jpg"
-                    alt="">
-                <div id="mobile-menu" class="mobile-menu-btn">
-                    <i class=" ti-menu"></i>
-                </div>
-                <span class="title">
-                    THE HP COFFEE
-                </span>
+            <!-- <img width="100%" src="/picture/5585379 (1).png" alt=""> -->
+            <div class="menu">
                 <ul id="nav">
-                    <li><a href="#sanPham"><b>Cà phê</b></a>
-                        <ul class="subnav">
-                            <li><a href="#sanPham"><b>Cà phê đen</b></a></li>
-                            <li><a href="#sanPham"><b>Sữa đá</b></a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#chuyenNha"><b>Chuyện nhà</b></a></li>
-                    <li onclick="veTrangChu()"><a href="#"><b>Cửa hàng</b></a></li>
-                    <li><a href="#sanPham"><b>Đồ ăn</b></a>
-                        <ul class="subnav">
-                            <li><a href="#sanPham"><b>Bánh mì</b></a></li>
-                            <li><a href="#sanPham">Bánh ngọt</a></li>
-                        </ul>
-                    </li>
-                    <li> <button class="user-icon"><i class="ti-user"></i> Đăng nhập</button></li>
+                    <li><button onclick="veTrangChu()">Trang Chủ</button> </li>
+                    <li><button class="btnBook">Đặt Hàng</button> </li>
+                    <li><button onclick="showModal()">Đăng nhập</button></li>
                 </ul>
-
-                <!-- End: nav -->
-
-                <!-- Begin: search button -->
-
-                <div class="search-btn">
-                    <i class="search-icon ti-search"></i>
-                </div>
-
-                <div class="user-btn">
-                    <i class="user-icon ti-user"></i>
-                </div>
-
-                <!-- End: search button -->
-            </div>
-            <div class="btn">
-                <button>Khám phá ngay!!!</button>
             </div>
         </div>
 
         <div id="content">
-            <div class="imgBackground">
-                <img src="./picture/chuyenNha(1).jpg" alt="">
-            </div>
-            <h1>Cà phê và sắc đẹp</h1>
-            <p>Trong mỗi gói cà phê Passiona đều được bổ sung một lượng collagen vừa đủ giúp bạn gái làm chậm tiến trình
-                lão hóa của làn da. Với tâm huyết nhiều năm nghiên cứu, tác dụng khác biệt của Passiona chính là cà phê
-                giúp đẹp da vì trong mỗi gói Passiona có một lượng collagen vừa đủ để bổ sung cho làn da mỗi ngày. Đặc
-                biệt, collagen khi kết hợp với cà phê sẽ làm tăng hiệu quả hấp thu, làm chậm tiến trình lão hóa của làn
-                da. Các chuyên gia đều khuyên phụ nữ nên bổ sung collagen từ tuổi 20 vì việc sớm bổ sung sẽ giúp chị em
-                có được làn da khỏe mạnh, căng mịn.</p>
-            <div class="imgBackground">
-                <img src="./picture/cafe&beauti.png" alt="">
-            </div>
-            <p>Đường ăn kiêng giúp không tăng cân – Nhất dáng, nhì da…là phụ nữ ai cũng thấu hiểu điều này. Quan trọng
-                là sự chủ động lựa chọn thực phẩm tốt để có một vóc dáng cân đối, khỏe mạnh. Passiona sẽ giải quyết nỗi
-                lo của phái đẹp với thành phần đường ăn kiêng chiết xuất từ thảo được thiên nhiên và sữa không béo, giúp
-                dáng bạn luôn thon thả, không sợ tăng cân.</p>
-
-            <div class="imgBackground1">
-
-                <img src="./picture/cafe&beauti(1).png" alt="">
-            </div>
-
-            <p>Cà phê giúp bạn tỉnh táo – Đây cũng chính là ưu điểm của Passiona. Cà phê chức năng 4in1 dành riêng cho
-                phái đẹp giúp chị em có thể hoàn thành tốt công việc. Mỗi ngày 2 lần, uống cà phê Passiona để có một
-                ngày làm việc năng động, tỉnh táo và khỏe đẹp hơn.
-                Có thời gian dành cho gia đình – Passiona là sản phẩm tiện lợi, chỉ cần cho Passiona vào ly, pha nước
-                nóng là bạn đã có một ly cà phê ngon mọi lúc, mọi nơi trong ngày. Với hương vị ngọt ngào và sự tiện lợi
-                trong pha chế, bạn có nhiều thời gian chăm sóc bản thân, gia đình và những người thân yêu.</p>
+            <table id="table">
+                <tr class="tr-head">
+                    <td class="stt">Stt</td>
+                    <td class="tenKH">Ten Khach Hang</td>
+                    <td class="tenSP">Ten San Pham</td>
+                    <td class="soLuong">So luong</td>
+                    <td class="Ngay">Ngay dat</td>
+                    <td class="gia">Gia</td>
+                    <td class="diaChi">Dia chi</td>
+                    <td class="sdt">So dien thoai</td>
+                </tr>
+            </table>
         </div>
 
         <div id="footer">
@@ -142,6 +89,61 @@
             </div>
         </div>
     </div>
+
+    <div class="modalBook">
+
+        <div class="modalBook-container">
+            <div class="header">
+                <img src="./picture/logo.jpg" alt="">
+                <h1>Đặt Hàng</h1>
+                <i style="padding: 0;background-color: aliceblue;color: #000;font-weight: bold;"
+                    class="btnCloseBook ti-close"></i>
+            </div>
+            <div class="body">
+                <label class="lblMain" for="txtName">Họ và tên</label>
+                <input type="text" class="input" id="txtName" name="txtName" required>
+                <p class="txtRed">(*)</p>
+
+
+                <label class="lblMain" for="txtAddress">Địa chỉ</label>
+                <input type="text" class="input" id="txtAddress" required>
+                <p class="txtRed">(*)</p>
+
+                <label class="lblMain" for="txtPhone">Số điện thoại</label>
+                <input type="text" class="input" id="txtPhone" required>
+                <p class="txtRed">(*)</p>
+
+                <label class="lblMain" for="txtProduct">Sản Phẩm</label>
+                <select name="txtProduct" id="product" onclick="showPriceTotal()">
+                    <option value="0"></option>
+                    <option value="1">Combo</option>
+                    <option value="2">Coffee hạnh nhân nướng</option>
+                    <option value="3">The HP sữa đá</option>
+                    <option value="4">High-tea vải</option>
+                    <option value="5">Bạc xỉu</option>
+                    <option value="6">Bánh mì VN thịt nguội</option>
+                    <option value="7">Mochi việt quất</option>
+                </select>
+                <p class="txtRed">(*)</p>
+                <label class="lblMain" for="txtQuant">Số Lượng</label>
+                <input type="number" class="input" id="txtQuant" value="1" required>
+                <p class="txtRed">(*)</p>
+                <label class="lblMain" for="txtPrice">Giá</label>
+                <input type="text" class="input" id="txtPrice" required disabled>
+
+
+
+                <input type="button" value="Đặt Hàng" class="inputSub" id="btnSub">
+
+            </div>
+
+            <div class="footer">
+                <input class="btnCloseBook" type="button" value="Close">
+            </div>
+        </div>
+
+    </div>
+
     <div class="modalLogin js-modal">
         <div class="modalLogin-container js-modal-container">
             <div class="modalLogin-close js-modal-close">
@@ -184,6 +186,7 @@
     </div>
 </body>
 
-<script src="./js/event.js"></script>
+
+<script src="/js/datHang.js"></script>
 
 </html>

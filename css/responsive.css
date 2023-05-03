@@ -1,26 +1,42 @@
 /* PC */
 @media (min-width: 1024px) {
-  #menu .title{
+  #menu .title {
+    display: none;
+  }
+  #nav li button {
     display: none;
   }
 }
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-  #menu .title{
+  #menu .title {
+    display: none;
+  }
+  #nav li button {
     display: none;
   }
 }
 
 /* Mobile */
+
 @media (max-width: 740px) {
+  /* .tall-100{
+    height: 100px;
+  }   */
+
+  #wrapper {
+    width: 100%;
+  }
+
+  #header {
+    width: 100%;
+    height: 500px;
+  }
+
   #menu {
     display: inline;
     max-width: 100%;
     overflow: hidden;
-  }
-
-  #header {
-    height: 500px;
   }
 
   .mobile-menu-btn {
@@ -41,6 +57,26 @@
   #nav {
     margin-left: 0px;
     display: block;
+  }
+
+  #nav li button {
+    margin-left: 220px;
+    display: block;
+    padding: 30px 40px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #733f3f;
+    background-color: rgba(216, 206, 182, 0.7);
+  }
+
+  #nav li i {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  #nav li button:hover {
+    color: black;
+    background-color: coral;
   }
 
   #nav .subnav {
@@ -123,7 +159,7 @@
     margin-top: 30px;
   }
 
-  #sanPham .row1 .item2 .des{
+  #sanPham .row1 .item2 .des {
     align-items: center;
     margin-left: -230px;
   }
@@ -143,89 +179,133 @@
     font-size: 25px;
   }
 
-  #sanPham .row2{
+  #sanPham .row2 {
     display: none;
   }
 
-  #gioiThieu{
-   height: 850px;
+  #gioiThieu {
+    height: 850px;
   }
 
-  #gioiThieu .container .item{
+  #gioiThieu .container .item {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
   }
 
-  #gioiThieu .container .item .right{
+  #gioiThieu .container .item .right {
     margin-top: -100px;
     margin-left: 338px;
     order: 1;
   }
 
-  #gioiThieu .container .item .left{
+  #gioiThieu .container .item .left {
     margin-top: 10px;
     order: 2;
     width: 100%;
     margin-left: 10px;
   }
 
-  #gioiThieu .container .item .left .title p{
+  #gioiThieu .container .item .left .title p {
     display: inline-block;
   }
 
-  #gioiThieu .container .item .left .title p{
+  #gioiThieu .container .item .left .title p {
     margin-left: 0;
     min-width: 500px;
   }
 
-  #gioiThieu .container .item .left .title div{
+  #gioiThieu .container .item .left .title div {
     max-width: 1100px;
   }
 
-  #gioiThieu .container .header{
+  #gioiThieu .container .header {
     margin-top: 10px;
   }
 
-  #gioiThieu .container .item .left .btn button{
+  #gioiThieu .container .item .left .btn button {
     margin-left: -480px;
     padding: 15px 30px;
     font-size: 20px;
   }
 
-
-  #chuyenNha .row1 .item1{
+  #chuyenNha .row1 .item1 {
     margin-left: 480px;
     margin-top: 50px;
   }
 
-  #chuyenNha .row1 .item1 .btn_timhieuthem button{
+  #chuyenNha .row1 .item1 .btn_timhieuthem button {
     margin-top: 7px;
   }
 
-  #footer{
+  /* SP */
+  #content_PD{
+    display: flex;
+    margin-top: -400px;
+  }
+
+  #content_PD .link_title{
+    margin-top: 10px;
+    margin-left: -300px;
+    font-size: 20px;
+  }
+
+  #content_PD #chitietsanpham{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #content_PD #chitietsanpham .ctsp_right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 500px;
+    margin-left: -60px;
+  }
+
+  .product_description{
+    border: none;
+  }
+
+  .product_description > p{
+    margin-top: 500px;
+    width: 700px;
+    margin-left: 240px;
+    border-top: gainsboro solid 1px;
+    border-bottom: gainsboro solid 1px;
+    font-size: 20px;
+
+  }
+  .more_products{
+    margin-top: 600px;
+    margin-left: 32px;
+    margin-bottom: 50px;
+  }
+
+  /* footer */
+  #footer {
     display: flex;
     flex-direction: column;
     height: 1200px;
-
   }
 
-  #footer .item,  #footer .item1 {
+  #footer .item,
+  #footer .item1 {
     margin-top: 10px;
-   width: 100%;
-   align-items: center;
-   margin-left: 0;
-
+    width: 100%;
+    align-items: center;
+    margin-left: 0;
   }
 
-  #footer .item .container{
+  #footer .item .container {
     margin-top: -80px;
   }
 
-  #footer .item1 h1{
+  #footer .item1 h1 {
     margin-bottom: 40px;
   }
-  #footer .item video{
+  #footer .item video {
     margin-top: -80px;
     width: 90%;
     margin-left: 0;
@@ -236,8 +316,7 @@
     width: 500px;
   }
 
-  #footer .item .container .socialMedia{
+  #footer .item .container .socialMedia {
     margin-left: 10px;
   }
-
 }
