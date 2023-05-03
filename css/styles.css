@@ -219,11 +219,11 @@ a {
   height: 450px;
 }
 
-#sanPham .row1 .item1 .btn {
+#sanPham .row1 .item1 .btnBook {
   position: absolute;
 }
 
-#sanPham .row1 .item1 .btn button {
+#sanPham .row1 .item1 .btnBook button {
   padding: 20px 50px;
   background-color: #f4bc7b;
   color: #000;
@@ -234,7 +234,7 @@ a {
   border: none;
 }
 
-#sanPham .row1 .item1 .btn a:hover {
+#sanPham .row1 .item1 .btnBook a:hover {
   text-decoration: none;
 }
 
@@ -276,6 +276,7 @@ a {
   border-radius: 10px;
   font-size: 20px;
   color: #000;
+  border: none;
 }
 
 #sanPham .row1 .item2 .des h1,#sanPham .row2 .des h1 {

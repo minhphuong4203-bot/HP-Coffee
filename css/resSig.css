@@ -18,19 +18,10 @@
 }
 
 /* Mobile */
-
 @media (max-width: 740px) {
-  /* .tall-100{
-    height: 100px;
-  }   */
-
-  #wrapper {
-    width: 100%;
-  }
-
   #header {
     width: 100%;
-    height: 500px;
+    height: 50px;
   }
 
   #menu {
@@ -129,119 +120,71 @@
     text-align: center;
   }
 
-  #sanPham .row1,
-  #sanPham .row1 .item2,
-  #sanPham .row2,
-  #chuyenNha .row1 {
-    display: inline-block;
+  /* content */
+  #content {
+    width: 700px;
   }
 
-  #sanPham .row1 .product-item1 {
+  #content .imgBackground {
+    height: 400px;
+    /* margin-top: -60px; */
+  }
+
+  /* caffee and beauti */
+  #content .imgBackground img{
+    position: relative;
     width: 100%;
-    margin-left: 380px;
+    height: 400px;
   }
 
-  #sanPham .row1 .item1 .btn button {
-    margin-left: 200px;
-    background-color: #f4bc7b;
-    opacity: 0.9;
+  #content h1 {
+    margin-top: 10px;
+    margin-left: -345px;
   }
 
-  #sanPham .row1 .item1 .des {
-    padding: 20px 20px;
-    border-radius: 35px;
-    color: rgb(244, 188, 123);
+  #content h2{
+    margin-left: 0px;
+  }
+
+  /* #content h2 {
+    margin-left: 100px;
+    margin-top: -80px;
+  } */
+
+  #content p {
+    margin-bottom: 60px;
+  }
+
+  #content .imgBackground1{
+    width: 100%;
+    height: 600px;
+  }
+
+  #content .imgBackground1 img{
     margin-left: 140px;
+    /* margin-top: -50px; */
+    margin-bottom: 10px;
   }
 
-  #sanPham .row1 .product-item {
-    margin-left: 200px;
-    margin-top: 30px;
-  }
+  /* content-sig */
 
-  #sanPham .row1 .item2 .des {
-    align-items: center;
-    margin-left: -230px;
-  }
-
-  #sanPham .row2 .des {
-    align-items: center;
-    /* margin-left: -230px; */
-  }
-
-  #sanPham .row1 .item2 .des h1,
-  #sanPham .row2 .des h1 {
-    font-size: 20px;
-  }
-
-  #sanPham .row1 .item2 .des h5,
-  #sanPham .row2 .des h5 {
-    font-size: 25px;
-  }
-
-  #sanPham .row2 {
-    display: none;
-  }
-
-  #gioiThieu {
-    height: 850px;
-  }
-
-  #gioiThieu .container .item {
+  #content-sig {
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 1400px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
   }
 
-  #gioiThieu .container .item .right {
-    margin-top: -100px;
-    margin-left: 338px;
-    order: 1;
-  }
-
-  #gioiThieu .container .item .left {
-    margin-top: 10px;
-    order: 2;
-    width: 100%;
-    margin-left: 10px;
-  }
-
-  #gioiThieu .container .item .left .title p {
-    display: inline-block;
-  }
-
-  #gioiThieu .container .item .left .title p {
-    margin-left: 0;
-    min-width: 500px;
-  }
-
-  #gioiThieu .container .item .left .title div {
-    max-width: 1100px;
-  }
-
-  #gioiThieu .container .header {
-    margin-top: 10px;
-  }
-
-  #gioiThieu .container .item .left .btn button {
-    margin-left: -480px;
-    padding: 15px 30px;
-    font-size: 20px;
-  }
-
-  #chuyenNha .row1 .item1 {
-    margin-left: 480px;
-    margin-top: 50px;
-  }
-
-  #chuyenNha .row1 .item1 .btn_timhieuthem button {
-    margin-top: 7px;
+  #content-sig .left .imgBackground1 {
+    display: none;
   }
 
   #footer {
     display: flex;
     flex-direction: column;
     height: 1200px;
+    /* margin-top: -50px; */
   }
 
   #footer .item,

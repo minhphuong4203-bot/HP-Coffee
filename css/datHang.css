@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+
+#nav {
+  display: inline-block;
+  margin-left: 50px;
+  height: 100px;
+}
+
+#nav > li {
+  display: inline-block;
+  margin-left: 20px;
+  line-height: 20px;
+  padding: 10px 10px;
+}
+
+#nav > li button {
+  color: darkorange;
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  line-height: 40px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+
+#nav > li button:hover {
+  /* padding: 10px 10px; */
+  background-color: coral;
+  color: #fff;
+}
+
+#content {
+  margin-top: 20px;
+  border: #733f3f 1px solid;
+}
+
+.table {
+  border-collapse: separate;
+  margin-left: 30px;
+  border: 2px rgba(0, 0, 0, 0.3) solid;
+  width: 98%;
+}
+
+td {
+  /* margin-left: 100px; */
+  width: 370px;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.tr-head td {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.modalBook {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modalBook.open {
+  display: flex;
+}
+
+.modalBook-container {
+  position: relative;
+  background-color: antiquewhite;
+  width: 900px;
+  height: 900px;
+}
+
+.modalBook-container .header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.modalBook-container .header img{
+  width: 80px;
+  height: 80px;
+}
+
+.btnExit {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.modalBook-container h1 {
+  margin-left: 280px;
+}
+
+.modalBook-container .body {
+  margin-top: 24px;
+}
+
+.modalBook-container .body .input,
+select {
+  margin: 0 16px;
+  padding: 10px;
+  width: 96%;
+  height: 40px;
+  font-size: 16px;
+}
+.lblMain {
+  display: block;
+  margin: 8px 0 5px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.txtRed {
+  margin: 0px 20px;
+  font-size: 15px;
+  color: red;
+  font-weight: 900;
+}
+
+.inputChk {
+  margin-left: 20px;
+  width: 20px;
+  display: inline-block;
+}
+
+.inputSub {
+  margin: 16px 20px;
+  padding: 10px 20px;
+  background-color: coral;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  margin: 30px 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+
+.btnCloseBook {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  padding: 16px 28px;
+  background-color: coral;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#footer {
+  display: flex;
+  margin-top: 280px;
+  width: 100%;
+  background-color: #fffbe9;
+  height: 500px;
+  justify-content: space-between;
+}
+
+#footer video {
+  width: 450px;
+  margin-left: 60px;
+}
+
+#footer .item,#footer .item1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  color: #733f3f;
+  margin-right: 40px;
+}
+
+#footer .item .container{
+  width: 500px;
+  margin-right: 24px;
+}
+
+#footer .item1 a{
+  color: #733f3f;
+}
+
+#footer .item1 p{
+  padding: 10px 80px;
+}
+
+#footer h1 {
+  margin-top: 40px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+#footer .item .child {
+  display: flex;
+}
+
+#footer .item .child a,
+#footer .item .socialMedia a {
+  color: #733f3f;
+  text-decoration: none;
+}
+
+.ti-location-pin,
+.ti-mobile {
+  font-size: 54px;
+  padding-top: 5px;
+}
+
+#footer .item .socialMedia {
+  margin-top: 40px;
+  margin-left: 7px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+.modalLogin {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  display: none;
+}
+
+.modalLogin.open {
+  display: flex;
+}
+
+.modalLogin-container {
+  background-color: white;
+  width: 550px;
+  max-width: calc(100% - 32px);
+  min-height: 750px;
+  position: relative;
+  animation: modalFadeIn ease 0.5s;
+  background-color: #ead0ad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalLogin-close {
+  margin-top: 10px;
+  margin-left: 520px;
+  cursor: pointer;
+}
+
+.modalLogin-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalLogin-header h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.modalLogin-header img {
+  width: 150px;
+  height: 150px;
+}
+
+.modalLogin-body {
+  margin-top: 26px;
+  width: 80%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 25px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 50px;
+}
+
+.form-check {
+  display: flex;
+}
+
+.form-check input {
+  width: 16px;
+  height: 16px;
+}
+.form-check label {
+  padding-top: 2px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 50px;
+}
+
+.modalLogin-Contact {
+  margin-top: 20px;
+  font-size: 20px;
+  /* color: chocolate; */
+}
+
+/* .modalLogin-Contact p{
+  margin-bottom: 16px;
+} */
+
+.modalLogin-Contact a {
+  font-size: 32px;
+  color: #000;
+  margin-left: 8px;
+}

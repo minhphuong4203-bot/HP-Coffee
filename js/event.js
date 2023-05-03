@@ -1,5 +1,5 @@
 //modal Dang nhap
-const userBTN = document.querySelector('.user-icon');
+const userBTNs = document.querySelectorAll('.user-icon');
 const modalLogin = document.querySelector('.modalLogin');
 const modalLoginCloses = document.querySelector('.modalLogin-close');
 
@@ -11,27 +11,42 @@ function hideModal() {
     modalLogin.classList.remove('open');
 }
 
-userBTN.addEventListener('click', showModal);
+for (const userBTN of userBTNs) {
+    userBTN.addEventListener('click', showModal);
+}
+
+// userBTN.addEventListener('click', showModal);
 
 modalLoginCloses.addEventListener('click', hideModal);
 
 //chuyen trang
 function chuyenSangcfAndBeauti() {
-    location.replace("cafe&beauti.html")
+    location.replace("cafe&beauti.html");
 }
 
 function veTrangChu() {
-    location.replace("index.html")
+    location.replace("index.html");
 }
 
 function chuyenSangcfAndHealth() {
-    location.replace("cafe&health.html")
+    location.replace("cafe&health.html");
 }
 
 
 function chuyenSangGioiThieu() {
-    location.replace("signatureCoffee.html")
+    location.replace("signatureCoffee.html");
 }
+
+
+var btnDatHangs = document.querySelectorAll('.btnDatHang');
+function chuyenSangDatHang() {
+    location.replace("datHang.html");
+}
+
+for (const btnDatHang of btnDatHangs) {
+    btnDatHang.addEventListener('click', chuyenSangDatHang);
+}
+
 
 //responsive menu mobile
 var menu = document.getElementById('menu');
@@ -56,10 +71,29 @@ for (var i = 0; i < menuItems.length; i++) {
     menuItem.onclick = function () {
         var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
         if (isParentMenu) {
-        event.preventDefault();
-        }else{
+            event.preventDefault();
+        } else {
 
             menu.style.height = null;
         }
     }
 }
+
+// Dat Hang
+// const bookBtn = document.querySelector('.btnBook');
+// const modalBook = document.querySelector('.modalBook');
+// const modalBookCloses = document.querySelectorAll('.btnCloseBook');
+
+// function showModalBook() {
+//     modalBook.classList.add('open');
+// }
+
+// function hideModalBook() {
+//     modalBook.classList.remove('open');
+// }
+
+// bookBtn.addEventListener('click', showModalBook);
+
+// for (const modalClose of modalBookCloses) {
+//     modalClose.addEventListener('click', hideModalBook);
+// }
