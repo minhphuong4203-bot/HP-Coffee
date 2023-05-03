@@ -33,6 +33,9 @@ function chuyenSangGioiThieu() {
     location.replace("signatureCoffee.html")
 }
 
+function change_PD_1{
+    location.replace("CoffeeHanhNhanNuong.html")
+}
 //responsive menu mobile
 var menu = document.getElementById('menu');
 var mobileMenu = document.getElementById('mobile-menu');
