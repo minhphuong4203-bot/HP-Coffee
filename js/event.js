@@ -33,8 +33,23 @@ function chuyenSangGioiThieu() {
     location.replace("signatureCoffee.html")
 }
 
-function change_PD_1{
+function change_PD_1(){
     location.replace("CoffeeHanhNhanNuong.html")
+}
+function change_PD_2(){
+    location.replace("/products_detail/TheHPSuaDa.html")
+}
+function change_PD_3(){
+    location.replace("/products_detail/BacXiu.html")
+}
+function change_PD_4(){
+    location.replace("/products_detail/Vai.html")
+}
+function change_PD_5(){
+    location.replace("/products_detail/BanhMi.html")
+}
+function change_PD_6(){
+    location.replace("/products_detail/Mochi.html")
 }
 //responsive menu mobile
 var menu = document.getElementById('menu');
