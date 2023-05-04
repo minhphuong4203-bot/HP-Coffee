@@ -28,14 +28,26 @@
     width: 100%;
   }
   #nav {
-    margin-left: 60px;
+    margin-left: 100px;
     display: block;
   }
   #nav li{
     font-size: 15px;
   }
   #nav li a{
-    padding-right: 0px;
+    padding-right: 20px;
+    padding-left: 20px ;
+  }
+  .imgLogo{
+    padding:0px  0px ;
+  }
+  .search-btn{
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .user-btn{
+    margin-right: 0px;
+    margin-left: 20px;
   }
   #header img{
     margin-left: 0px;
@@ -44,6 +56,7 @@
     margin-left: 130px;
     margin-top:420px;
   } 
+
   #sanPham{
     width: 100%;
   }
@@ -86,11 +99,17 @@
   #gioiThieu .container .item .left{
     margin-left: 0px;
   }
+  .khungcanhquan{
+    width: 650px; 
+    height: 400px;
+  }
   #chuyenNha .row1 {
     width: 100%;
     margin-left: -200px;
   }
-  
+  #chuyenNha .row1 .item1{
+    margin-left: 110px;
+  }
   #footer video{
     width: 300px;
     margin-left: 40px;
@@ -101,7 +120,21 @@
   #footer .item1 p{
     padding: 0px 0px;
     margin-left: 20px;
-    font-size: 17px;
+    font-size: 15px;
+    margin-right: 30px;
+  }
+  #footer .item1 .child{
+    font-size: 21px;
+  }
+  #footer .item{
+    margin-left: -20px;
+  }
+  #footer .item .container{
+    font-size: 15px;
+    margin-left: -30px;
+  }
+  #footer .item .child{
+    width: 400px;
   }
   #content_PD{
    margin-top:-650px;

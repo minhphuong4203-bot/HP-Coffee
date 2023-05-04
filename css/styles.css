@@ -144,6 +144,10 @@ a {
 .mobile-menu-btn {
   display: none;
 }
+.imgLogo{
+   width:100px; height:100px;
+   margin-right: 40px;
+}
 
 #header .search-btn:hover,
 #header .user-btn:hover,
@@ -365,7 +369,9 @@ a {
   margin-left: 90px;
   width: 36%;
 }
-
+.khungcanhquan{
+  width: 700px; height: 450px;
+}
 #gioiThieu .container .item .right {
   display: flex;
   width: 50%;
@@ -481,7 +487,9 @@ a {
   padding: 10px 80px;
   margin-left: 70px;
 }
-
+#footer .item1 .child{
+  font-size: 24px;
+}
 #footer h1 {
   margin-top: 40px;
   font-size: 30px;
@@ -491,6 +499,7 @@ a {
 
 #footer .item .child {
   display: flex;
+  font-size: 24px;
 }
 
 #footer .item .child a,
