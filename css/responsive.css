@@ -28,12 +28,17 @@
     width: 100%;
   }
   #nav {
-    margin-left: 100px;
+    margin-left: 60px;
     display: block;
   }
   #nav li{
     font-size: 15px;
-
+  }
+  #nav li a{
+    padding-right: 0px;
+  }
+  #header img{
+    margin-left: 0px;
   }
    #header .btn button{
     margin-left: 130px;
