@@ -255,9 +255,13 @@ a {
 #sanPham .row1 .item2 {
   display: flex;
   justify-content: space-between;
-  width: 50%;
-}
+  width: 295px; 
+  height:330px;
 
+}
+.xulyanhtablet{
+  width: 295px; height:330px;
+}
 #sanPham .row1 .item2 .pic {
   display: flex;
   flex-direction: column;
