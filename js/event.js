@@ -25,7 +25,7 @@ function chuyenSangcfAndBeauti() {
 }
 
 function veTrangChu() {
-    location.replace("index.html");
+    location.replace("/index.html");
 }
 
 function chuyenSangcfAndHealth() {
@@ -61,7 +61,7 @@ function change_PD_6(){
 
 var btnDatHangs = document.querySelectorAll('.btnDatHang');
 function chuyenSangDatHang() {
-    location.replace("datHang.html");
+    location.replace("/datHang.html");
 }
 
 for (const btnDatHang of btnDatHangs) {
