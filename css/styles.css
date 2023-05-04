@@ -206,7 +206,9 @@ a {
   font-size: 35px;
 }
 
-#sanPham .row1,
+#sanPham .row1{
+  display: flex;
+}
 #sanPham .row2 {
   display: flex;
   margin-top: 40px;
@@ -219,12 +221,17 @@ a {
   position: relative;
   width: 57%;
   height: 450px;
+  margin-right: -60px;
 }
-
+#sanPham .row1 .item1 img{
+  width: 678px;
+}
 #sanPham .row1 .item1 .btnBook {
   position: absolute;
 }
-
+#sanPham .row1 .item2 .pic{
+  margin-right: 90px;
+}
 #sanPham .row1 .item1 .btnBook button {
   padding: 20px 50px;
   background-color: #f4bc7b;
@@ -257,7 +264,6 @@ a {
   justify-content: space-between;
   width: 295px; 
   height:330px;
-
 }
 .xulyanhtablet{
   width: 295px; height:330px;
@@ -408,6 +414,7 @@ a {
 
 #chuyenNha .row1 .item1 {
   width: 40%;
+  margin-left: 100px;
 }
 
 #chuyenNha .row1 .item1 .des {
@@ -472,6 +479,7 @@ a {
 
 #footer .item1 p {
   padding: 10px 80px;
+  margin-left: 70px;
 }
 
 #footer h1 {

@@ -39,12 +39,11 @@
     width: 100%;
   }
   #sanPham .row1 .item1{
-    width:280px;
+    width:550px;
     height: 410px;
-    margin-left: 50px;
   }
   #sanPham .row1 .item1 img{
-    width: 400px;
+    width: 510px;
     height: 420px;
   } ;
   #sanPham .row1 .item1 .btnBook {
@@ -54,15 +53,18 @@
     display: flex;
   }
   #sanPham .row1 .item2 {
-    margin-left: 50px;
+    margin-left: 30px;
     margin-right: 260px;
   } 
    #sanPham .row1 .item2 .pic {
     width: 250px;
     height: 450px;
-    margin-left: 25px;
-    
+    margin-left: 40px;
+    margin-right:-30px;
   } 
+  /* #sanPham .row2{
+    margin-left: 50px;
+  } */
   .xulyanhtablet{
     width: 250px;
     height: 280px;
@@ -72,8 +74,12 @@
     font-size: 15px;
     margin-left: 0px;
   }
+  #gioiThieu .container .item .left{
+    margin-left: 0px;
+  }
   #chuyenNha .row1 {
     width: 100%;
+    margin-left: -200px;
   }
   
   #footer video{
