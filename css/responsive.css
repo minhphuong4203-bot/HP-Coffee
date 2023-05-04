@@ -24,12 +24,16 @@
     height: 800px;
   }
   #menu {
-    display: inline;
-    max-width: 100%;
+    display: flex;
+    width: 100%;
   }
   #nav {
-    margin-left: 120px;
+    margin-left: 100px;
     display: block;
+  }
+  #nav li{
+    font-size: 15px;
+
   }
    #header .btn button{
     margin-left: 130px;
@@ -93,6 +97,20 @@
     padding: 0px 0px;
     margin-left: 20px;
     font-size: 17px;
+  }
+  #content_PD{
+   margin-top:-650px;
+   width: 100%;
+   margin-left:180px;
+  }
+  .anhlon{
+    width: 500px;
+  }
+  .ctsp_right{
+    margin-left: -60px;
+  }
+  .pd_content{
+    width: 1015px;
   }
 }
 
